@@ -137,8 +137,7 @@ class _ClassicHeaderState extends RefreshIndicatorState<ClassicHeader> {
                                       child: defaultTargetPlatform ==
                                               TargetPlatform.iOS
                                           ? const CupertinoActivityIndicator()
-                                          : const CircularProgressIndicator(
-                                              strokeWidth: 2.0),
+                                          : const CupertinoActivityIndicator(),
                                     )
                                 : widget.twoLevelView;
     return icon ?? Container();
